@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 	//head scripts
 	//career
 	$(".head .head_top_body_left_careers").on("mouseover", function(e) {
