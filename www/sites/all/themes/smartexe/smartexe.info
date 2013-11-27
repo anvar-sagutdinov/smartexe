@@ -1,0 +1,14 @@
+name = Smartexe
+description = Handles general site configuration for administrators.
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+regions[content] = Content
+regions[footer] = Footer
+
+scripts[] =  js/jquery.color-2.1.2.js
+scripts[] =  js/scripts.js
+scripts[] =  js/jquery.easing.1.3.js
+scripts[] = js/jquery.timer.js
