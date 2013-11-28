@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="331" column="38" selection-start="15674" selection-end="15674" vertical-scroll-proportion="0.028277636">
+            <state line="331" column="38" selection-start="15674" selection-end="15674" vertical-scroll-proportion="-0.7096774">
               <folding>
                 <marker date="1385612783000" expanded="true" signature="10163:10196" placeholder="..." />
                 <marker date="1385612783000" expanded="true" signature="10386:10409" placeholder="..." />
@@ -136,7 +136,25 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="19" selection-start="5827" selection-end="6357" vertical-scroll-proportion="0.0">
+            <state line="165" column="17" selection-start="5827" selection-end="6357" vertical-scroll-proportion="-17.709677">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/bartik/templates/node.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="30" selection-start="4817" selection-end="4817" vertical-scroll-proportion="0.19342604">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/bartik/templates/node--page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="0" selection-start="4771" selection-end="4771" vertical-scroll-proportion="-20.580645">
               <folding />
             </state>
           </provider>
@@ -160,9 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="22" />
-    <option name="width" value="1900" />
+    <option name="width" value="1920" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -345,17 +362,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1900" height="970" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25782093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -428,112 +445,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1148" column="0" selection-start="18467" selection-end="18467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="6" selection-start="3671" selection-end="3671" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385612783000" expanded="true" signature="10163:10196" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="10386:10409" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="10470:10503" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="10665:10688" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="10761:10858" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="10825:10858" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11054:11137" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11108:11137" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11311:11395" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11366:11395" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11564:11575" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11605:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11624:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11649:11719" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11743:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11774:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11814:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11862:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="11919:11952" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="12117:12274" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="13031:13209" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="13071:13209" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="13119:13209" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="13176:13209" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="13377:13537" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="14249:14427" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="14289:14427" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="14337:14427" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="14394:14427" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="14599:14754" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15515:15724" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15546:15724" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15586:15724" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15634:15724" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15691:15724" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="15894:16044" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="16843:17021" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="16883:17021" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="16931:17021" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="16988:17021" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="17188:17335" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="18095:18273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="18135:18273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="18183:18273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="18240:18273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="18437:18592" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="19376:19479" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="19410:19479" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="19454:19479" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="19627:20712" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="20793:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="20824:20835" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="20866:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="20909:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="20962:21098" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21316:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21378:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21410:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21486:21527" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21751:21900" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21783:21900" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="21859:21900" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22124:22273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22156:22273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22232:22273" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22497:22646" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22529:22646" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22605:22646" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22870:23019" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22902:23019" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="22978:23019" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23234:23253" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23311:23340" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23508:23537" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23701:23708" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23736:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23770:23781" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23810:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23848:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="23895:25353" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="27343:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="27401:27553" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="27613:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="27682:27727" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="27918:27937" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28043:28522" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28084:28522" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28134:28364" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28415:28522" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28478:28522" placeholder="..." />
-            <marker date="1385612783000" expanded="true" signature="28697:28716" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="140" column="19" selection-start="5827" selection-end="6357" vertical-scroll-proportion="0.0">
@@ -691,13 +602,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.580977" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="19" selection-start="5827" selection-end="6357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/smartexe-1/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="168" column="30" selection-start="3699" selection-end="9672" vertical-scroll-proportion="-18.451612">
@@ -707,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="38" selection-start="15674" selection-end="15674" vertical-scroll-proportion="0.028277636">
+        <state line="331" column="38" selection-start="15674" selection-end="15674" vertical-scroll-proportion="-0.7096774">
           <folding>
             <marker date="1385612783000" expanded="true" signature="10163:10196" placeholder="..." />
             <marker date="1385612783000" expanded="true" signature="10386:10409" placeholder="..." />
@@ -801,6 +705,27 @@
             <marker date="1385612783000" expanded="true" signature="28478:28522" placeholder="..." />
             <marker date="1385612783000" expanded="true" signature="28697:28716" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="17" selection-start="5827" selection-end="6357" vertical-scroll-proportion="-17.709677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/node--page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="4771" selection-end="4771" vertical-scroll-proportion="-20.580645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/node.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="30" selection-start="4817" selection-end="4817" vertical-scroll-proportion="0.19342604">
+          <folding />
         </state>
       </provider>
     </entry>
