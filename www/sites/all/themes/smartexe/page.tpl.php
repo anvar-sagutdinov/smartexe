@@ -63,6 +63,7 @@
                     <?php print '<img src="'.base_path() . path_to_theme() .'/images/head/smartexe_logo.png" />';  ?>
                 </div>
             </div>
+
             <div class="head_bottom_body_right">
                 <div class="head_bottom_body_right_menu">
                     <div class="head_bottom_body_right_menu_item">
@@ -151,6 +152,8 @@
                     </div>
                 </div>
             </div>
+
+            
             <div class="cleaner">
             </div>
         </div>

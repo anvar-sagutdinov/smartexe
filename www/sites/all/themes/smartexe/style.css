@@ -244,7 +244,7 @@ html, body {
 	width: 100%;
 	height: 447px;
 	background-color: #DBE9E9;
-	background: url(/images/face/face_slider_image_1.png) center top no-repeat;
+	background: url(images/face/face_slider_image_1.png) center top no-repeat;
 }
 
 .face_line {
@@ -313,7 +313,7 @@ html, body {
 .face_body_slider_item_body_button {
 	width: 202px;
 	height: 41px;
-	background: url(/images/face/face_slider_button_back_normal.png) left top repeat-x;
+	background: url(images/face/face_slider_button_back_normal.png) left top repeat-x;
 	margin-top: 23px;
 	cursor: pointer;
 	border-radius: 2px 2px 2px 2px;
@@ -324,7 +324,7 @@ html, body {
 	box-shadow: 0 0 3px #999999;
 }
 .face_body_slider_item_body_button:hover {
-	background: url(/images/face/face_slider_button_back_hover.png) left top repeat-x;
+	background: url(images/face/face_slider_button_back_hover.png) left top repeat-x;
 }
 .face_body_slider_item_body_button_text {
 	width: 202px;
@@ -736,7 +736,7 @@ html, body {
 	position: relative;
 	width: 380px;
 	height: 97px;
-	background: url(/images/home/tab_back.png) left top no-repeat;
+	background: url(images/home/tab_back.png) left top no-repeat;
 }
 .home_row_tab_body_bottom_text {
 	width: auto;
@@ -760,7 +760,7 @@ html, body {
 	height: auto;
 	left: 10px;
 	top: 66px;
-	background: url(/images/home/tab_button_back_normal.png) left top repeat-x;
+	background: url(images/home/tab_button_back_normal.png) left top repeat-x;
 	font-family: 'Ubuntu', Arial;
 	font-weight: 400;
 	font-size: 12px;
@@ -772,13 +772,13 @@ html, body {
 	cursor: pointer;
 }
 .home_row_tab_body_bottom_button:hover {
-	background: url(/images/home/tab_button_back_hover.png) left top repeat-x;
+	background: url(images/home/tab_button_back_hover.png) left top repeat-x;
 }
 
 .home_cloud {
 	width: 1170px;
 	height: 186px;
-	background: url(/images/home/tab_cloud_back.png) left top no-repeat;
+	background: url(images/home/tab_cloud_back.png) left top no-repeat;
 	margin-top: 30px;
 	margin-bottom: 14px;
 }
@@ -855,7 +855,7 @@ html, body {
 .home_cloud_right_button {
 	width: auto;
 	height: auto;
-	background: url(/images/home/tab_button_back_normal.png) left top repeat-x;
+	background: url(images/home/tab_button_back_normal.png) left top repeat-x;
 	font-family: 'Ubuntu', Arial;
 	font-weight: 400;
 	font-size: 12px;
@@ -867,7 +867,7 @@ html, body {
 	cursor: pointer;
 }
 .home_cloud_right_button:hover {
-	background: url(/images/home/tab_button_back_hover.png) left top repeat-x;
+	background: url(images/home/tab_button_back_hover.png) left top repeat-x;
 }
 
 .home_row_spacer {
