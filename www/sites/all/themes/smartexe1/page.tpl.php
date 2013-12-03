@@ -140,7 +140,9 @@
 </div>
 
 <div class="content">
+    <div class="home">
     <?php print render($page['content']); ?>
+    </div>
 </div>
 
 <div class="clients">
