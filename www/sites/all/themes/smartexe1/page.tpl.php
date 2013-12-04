@@ -141,7 +141,7 @@
 
 <div class="content">
     <div class="home">
-    <?php print render($page['content']); ?>
+        <?php print render($page['content']); ?>
     </div>
 </div>
 
