@@ -72,6 +72,7 @@
     </div>
 </div>
 
+<?php if($is_front) { ?>
 <!--face-->
 <div class="face">
     <div class="face_line">
@@ -138,6 +139,19 @@
     <div class="face_line">
     </div>
 </div>
+<?php } else { ?>
+
+<div class="our_clients_top_line"></div>
+<div class="tiser">
+	<?php if(isset($node) && $node->field_header_image['und'][0]['filename'] != ""){ ?>
+	<div>
+	  <img src="/sites/default/files/<?=$node->field_header_image['und'][0]['filename']?>">
+	</div>
+    <?php } ?>
+</div>
+
+<?php } ?>
+
 
 <div class="content">
     <div class="home">

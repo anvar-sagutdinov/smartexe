@@ -224,12 +224,7 @@ html, body {
 	height: 8px;
 	margin: 0 auto;
 }
-.head_bottom_body_right_menu_item_line {
-	width: auto;
-	height: 2px;
-	background-color: #EF532C;
-	margin-top: 39px;
-}
+
 
 
 
@@ -1052,6 +1047,1535 @@ html, body {
 .about_body_team_second_row {
 	width: auto;
 	height: auto;
+	margin-top: 30px;
+}
+.about_body_team_second_row_space {
+	float: left;
+	width: 8px;
+	height: 50px;
+}
+.about_body_team_second_row_left {
+	float: left;
+	width: 579px;
+	height: auto;
+	border-left: 2px solid #4C8D97;
+}
+.about_body_team_second_row_left_name {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 18px;
+	color: #EF532C;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.about_body_team_second_row_left_position {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #999999;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.about_body_team_second_row_left_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #414141;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.about_body_team_second_row_right {
+	float: left;
+	width: 579px;
+	height: auto;
+	border-left: 2px solid #4C8D97;
+}
+
+
+
+
+
+
+
+
+
+
+/*services*/
+.services {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.services_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+	margin-bottom: 30px;
+}
+
+.services_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.services_body_head {
+	width: auto;
+	height: auto;
+}
+.services_body_head_left {
+	float: left;
+	width: 396px;
+	height: auto;
+}
+.services_body_head_left_image {
+	width: 360px;
+	height: 220px;
+	background-color: #268289;
+	border: 5px solid #FAFAFA;
+	-moz-box-shadow: 0 0 2px #D9D9D9;
+	-webkit-box-shadow: 0 0 2px #D9D9D9;
+	box-shadow: 0 0 2px #D9D9D9;
+}
+.services_body_head_right {
+	float: left;
+	width: 774px;
+	height: auto;
+}
+.services_body_head_right_title {
+	display: table;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+.services_body_head_right_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #414141;
+	margin-right: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.services_body_list {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_body_list_row {
+	width: auto;
+	height: auto;
+	margin-bottom: 30px;
+}
+.services_body_list_row_item {
+	float: left;
+	width: 386px;
+	height: auto;
+}
+.services_body_list_row_item_head {
+	width: auto;
+	height: auto;
+}
+.services_body_list_row_item_head_logo {
+	float: left;
+	width: 140px;
+	height: 120px;
+}
+.services_body_list_row_item_head_logo_image {
+	width: 140px;
+	height: 120px;
+}
+.services_body_list_row_item_head_title {
+	float: left;
+	width: 246px;
+	height: 120px;
+}
+.services_body_list_row_item_head_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 20px;
+	color: #EF532C;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.services_body_list_row_item_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #404040;
+}
+.services_body_list_row_item_more {
+	width: auto;
+	height: auto;
+	margin-top: 15px;
+}
+.services_body_list_row_item_more_button {
+	float: left;
+	width: auto;
+	height: auto;
+	background: url(/images/home/tab_button_back_normal.png) left top repeat-x;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	cursor: pointer;
+}
+.services_body_list_row_item_more_button:hover {
+	background: url(/images/home/tab_button_back_hover.png) left top repeat-x;
+}
+.services_body_list_row_spacer {
+	float: left;
+	width: 6px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*services_product_management*/
+.services_product_management {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.services_product_management_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+	margin-bottom: 30px;
+}
+
+.services_product_management_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.services_product_management_body_title {
+	width: auto;
+	height: auto;
+}
+.services_product_management_body_title_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+
+.services_product_management_body_description {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_product_management_body_description_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+
+.services_product_management_body_tabs {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_product_management_body_tabs_row {
+	width: auto;
+	height: auto;
+}
+.services_product_management_body_tabs_row_left {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+.services_product_management_body_tabs_row_spacer {
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+.services_product_management_body_tabs_row_right {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+
+.services_product_management_body_tabs_row_head {
+	width: auto;
+	height: auto;
+}
+.services_product_management_body_tabs_row_head_logo {
+	float: left;
+	width: 140px;
+	height: 120px;
+}
+.services_product_management_body_tabs_row_head_logo_image {
+	width: 140px;
+	height: 120px;
+}
+.services_product_management_body_tabs_row_head_title {
+	float: left;
+	width: 246px;
+	height: 120px;
+}
+.services_product_management_body_tabs_row_head_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 20px;
+	color: #EF532C;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.services_product_management_body_tabs_row_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_product_management_body_tabs_row_description span {
+	color: #EF532C;
+}
+
+.services_product_management_body_tabs_row_hspacer {
+	width: 100%;
+	height: 30px;
+}
+
+.services_product_management_body_tabs_row_square {
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+}
+.services_product_management_body_tabs_row_square_link {
+	float: left;
+	width: auto;
+	height: auto;
+	background-color: #F8F8F8;
+	border: 1px solid #E6E6E6;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #4C8D97;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+.services_product_management_body_tabs_row_square_link:hover {
+	color: #EF532C;
+}
+.services_product_management_body_tabs_row_square_link_text {
+	width: auto;
+	height: auto;
+}
+
+.services_product_management_body_title2 {
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.services_product_management_body_title2_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+
+.services_product_management_body_form {
+	width: 534px;
+	height: auto;
+}
+.services_product_management_body_form_left {
+	float: left;
+	width: 200px;
+	height: auto;
+}
+.services_product_management_body_form_left_field {
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+.services_product_management_body_form_left_field_title {
+	width: auto;
+	height: auto;
+	margin-bottom: 5px;
+}
+.services_product_management_body_form_left_field_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_product_management_body_form_left_field_title_text span {
+	color: #999999;
+}
+.services_product_management_body_form_left_field_box {
+	width: 200px;
+	height: 33px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.services_product_management_body_form_left_field_box input {
+	width: 190px;
+	height: 23px;
+	margin-left: 3px;
+	margin-top: 3px;
+	border: none;
+	background: none;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_product_management_body_form_right {
+	float: left;
+	width: 334px;
+	height: auto;
+}
+.services_product_management_body_form_right_field {
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.services_product_management_body_form_right_field_title {
+	width: auto;
+	height: auto;
+	margin-bottom: 5px;
+}
+.services_product_management_body_form_right_field_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_product_management_body_form_right_field_title_text span {
+	color: #999999;
+}
+.services_product_management_body_form_right_field_box {
+	width: 322px;
+	height: 162px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.services_product_management_body_form_right_field_box textarea {
+	width: 312px;
+	height: 152px;
+	margin-left: 3px;
+	margin-top: 3px;
+	border: none;
+	background: none;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+
+.services_product_management_body_form_left_button {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+}
+.services_product_management_body_form_left_button_box {
+	width: 202px;
+	height: 41px;
+	background-color: #4C8D97;
+	border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+	-moz-box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	box-shadow: 0 0 3px #999999;
+	cursor: pointer;
+}
+.services_product_management_body_form_left_button_box:hover {
+	background-color: #EF532C;
+}
+.services_product_management_body_form_left_button_box_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 72px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*services_project_management*/
+.services_project_management {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.services_project_management_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+	margin-bottom: 30px;
+}
+
+.services_project_management_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.services_project_management_body_title {
+	width: auto;
+	height: auto;
+}
+.services_project_management_body_title_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+
+.services_project_management_body_description {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_project_management_body_description_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+
+.services_project_management_body_tabs {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_project_management_body_tabs_row {
+	width: auto;
+	height: auto;
+}
+.services_project_management_body_tabs_row_left {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+.services_project_management_body_tabs_row_spacer {
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+.services_project_management_body_tabs_row_right {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+
+.services_project_management_body_tabs_row_head {
+	width: auto;
+	height: auto;
+}
+.services_project_management_body_tabs_row_head_logo {
+	float: left;
+	width: 140px;
+	height: 120px;
+}
+.services_project_management_body_tabs_row_head_logo_image {
+	width: 140px;
+	height: 120px;
+}
+.services_project_management_body_tabs_row_head_title {
+	float: left;
+	width: 246px;
+	height: 120px;
+}
+.services_project_management_body_tabs_row_head_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 20px;
+	color: #EF532C;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.services_project_management_body_tabs_row_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_project_management_body_tabs_row_description span {
+	color: #EF532C;
+}
+
+.services_project_management_body_tabs_row_hspacer {
+	width: 100%;
+	height: 30px;
+}
+
+.services_project_management_body_tabs_row_right_form {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_project_management_body_tabs_row_right_form_fields {
+	width: auto;
+	height: auto;
+}
+.services_project_management_body_form_left_field {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.services_project_management_body_form_left_field_title {
+	width: auto;
+	height: auto;
+	margin-bottom: 5px;
+}
+.services_project_management_body_form_left_field_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_project_management_body_form_left_field_title_text span {
+	color: #999999;
+}
+.services_project_management_body_form_left_field_box {
+	width: 200px;
+	height: 33px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.services_project_management_body_form_left_field_box input {
+	width: 190px;
+	height: 23px;
+	margin-left: 3px;
+	margin-top: 3px;
+	border: none;
+	background: none;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_project_management_body_tabs_row_right_form_right_field {
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+.services_project_management_body_tabs_row_right_form_right_field_title {
+	width: auto;
+	height: auto;
+	margin-bottom: 5px;
+}
+.services_project_management_body_tabs_row_right_form_right_field_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+.services_project_management_body_tabs_row_right_form_right_field_title_text span {
+	color: #999999;
+}
+.services_project_management_body_tabs_row_right_form_right_field_box {
+	width: 412px;
+	height: 162px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.services_project_management_body_tabs_row_right_form_right_field_box textarea {
+	width: 402px;
+	height: 152px;
+	margin-left: 3px;
+	margin-top: 3px;
+	border: none;
+	background: none;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000000;
+}
+
+.services_project_management_body_tabs_row_right_form_right_button {
+	width: auto;
+	height: auto;
+	padding-top: 10px;
+}
+.services_project_management_body_tabs_row_right_form_right_button_box {
+	width: 202px;
+	height: 41px;
+	background-color: #4C8D97;
+	border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+	-moz-box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	box-shadow: 0 0 3px #999999;
+	cursor: pointer;
+}
+.services_project_management_body_tabs_row_right_form_right_button_box:hover {
+	background-color: #EF532C;
+}
+.services_project_management_body_tabs_row_right_form_right_button_box_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 72px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*services_development*/
+.services_development {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.services_development_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+	margin-bottom: 30px;
+}
+
+.services_development_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.services_development_body_title {
+	width: auto;
+	height: auto;
+}
+.services_development_body_title_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+
+.services_development_body_description {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_development_body_description_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+
+.services_development_body_tabs {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.services_development_body_tabs_row_wide {
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+.services_development_body_tabs_row_wide_left {
+	float: left;
+	width: 880px;
+	height: auto;
+}
+.services_development_body_tabs_row_wide_spacer {
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+.services_development_body_tabs_row_wide_right {
+	float: left;
+	width: 280px;
+	height: auto;
+}
+.services_development_body_tabs_row_wide_head {
+	width: auto;
+	height: auto;
+}
+.services_development_body_tabs_row_wide_head_logo {
+	float: left;
+	width: 140px;
+	height: 120px;
+}
+.services_development_body_tabs_row_wide_head_logo_image {
+	width: 140px;
+	height: 120px;
+}
+.services_development_body_tabs_row_wide_head_title {
+	float: left;
+	width: 246px;
+	height: 120px;
+}
+.services_development_body_tabs_row_wide_head_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 20px;
+	color: #EF532C;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.services_development_body_tabs_row_wide_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_development_body_tabs_row_wide_description span {
+	color: #EF532C;
+}
+
+.services_development_body_tabs_row_wide_right_box {
+	width: 278px;
+	height: 91px;
+	background-color: #F8F8F8;
+	border: 1px solid #E6E6E6;
+	margin-top: 90px;
+}
+.services_development_body_tabs_row_wide_right_box_text {
+	width: auto;
+	height: auto;
+	padding-left: 20px;
+	padding-top: 18px;
+}
+.services_development_body_tabs_row_wide_right_box_text_link {
+	width: auto;
+	height: auto;
+	line-height: 14px;
+	margin-bottom: 10px;
+}
+.services_development_body_tabs_row_wide_right_box_text_link a {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #4B8D97;
+	text-decoration: none;
+}
+.services_development_body_tabs_row_wide_right_box_text_link a:hover {
+	color: #EF532C;
+}
+
+.services_development_body_tabs_row {
+	width: auto;
+	height: auto;
+}
+.services_development_body_tabs_row_left {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+.services_development_body_tabs_row_spacer {
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+.services_development_body_tabs_row_right {
+	float: left;
+	width: 580px;
+	height: auto;
+}
+.services_development_body_tabs_row_head {
+	width: auto;
+	height: auto;
+}
+.services_development_body_tabs_row_head_logo {
+	float: left;
+	width: 140px;
+	height: 120px;
+}
+.services_development_body_tabs_row_head_logo_image {
+	width: 140px;
+	height: 120px;
+}
+.services_development_body_tabs_row_head_title {
+	float: left;
+	width: 246px;
+	height: 120px;
+}
+.services_development_body_tabs_row_head_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 20px;
+	color: #EF532C;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.services_development_body_tabs_row_description {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_development_body_tabs_row_descriptions {
+	width: auto;
+	height: auto;
+}
+.services_development_body_tabs_row_descriptions_left {
+	float: left;
+	width: 70%;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_development_body_tabs_row_descriptions_right {
+	float: left;
+	width: 30%;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	color: #404040;
+}
+.services_development_body_tabs_row_description span {
+	color: #EF532C;
+}
+.services_development_body_tabs_row_descriptions_left span {
+	color: #EF532C;
+}
+.services_development_body_tabs_row_descriptions_right span {
+	color: #EF532C;
+}
+
+
+
+
+
+
+
+
+
+
+/*contact_us*/
+.contact_us {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.contact_us_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+}
+
+.contact_us_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact_us_body_map {
+	width: 100%;
+	height: 500px;
+	background-color: #E1F5F7;
+	margin-bottom: 30px;
+}
+
+.contact_us_body_contacts {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+}
+.contact_us_body_contacts_1 {
+	float: left;
+	width: 30%;
+	height: auto;
+	text-align: left;
+}
+.contact_us_body_contacts_1_type {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #999999;
+}
+.contact_us_body_contacts_1_name {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 18px;
+	color: #EF532C;
+	text-transform: uppercase;
+}
+.contact_us_body_contacts_1_adress {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 14px;
+	color: #3E3E3E;
+	margin-top: 30px;
+}
+.contact_us_body_contacts_1_other {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404040;
+	margin-top: 20px;
+}
+.contact_us_body_contacts_1_other a {
+	color: #EF532C;
+	text-decoration: none;
+}
+.contact_us_body_contacts_2 {
+	float: left;
+	width: 30%;
+	height: auto;
+	text-align: left;
+}
+.contact_us_body_contacts_2_type {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #999999;
+}
+.contact_us_body_contacts_2_name {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 18px;
+	color: #EF532C;
+	text-transform: uppercase;
+}
+.contact_us_body_contacts_2_adress {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 14px;
+	color: #3E3E3E;
+	margin-top: 30px;
+}
+.contact_us_body_contacts_2_other {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404040;
+	margin-top: 20px;
+}
+.contact_us_body_contacts_2_other a {
+	color: #EF532C;
+	text-decoration: none;
+}
+.contact_us_body_contacts_2_name_2 {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 18px;
+	color: #EF532C;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.contact_us_body_contacts_2_other_2 {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404040;
+}
+.contact_us_body_contacts_2_other_2 a {
+	color: #EF532C;
+	text-decoration: none;
+}
+.contact_us_body_contacts_3 {
+	float: left;
+	width: 40%;
+	height: auto;
+	text-align: left;
+}
+.contact_us_body_contacts_3_box {
+	width: 288px;
+	height: auto;
+	background-color: #F8F8F8;
+	border: 1px solid #E6E6E6;
+	margin-left: 50px;
+	padding: 20px;
+}
+.contact_us_body_contacts_3_box_title {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #999999;
+	margin-bottom: 5px;
+}
+.contact_us_body_contacts_3_box_other {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 12px;
+	color: #333333;
+	line-height: 20px;
+}
+.contact_us_body_contacts_3_box_pusher {
+	width: 100%;
+	height: 20px;
+}
+
+.contact_us_body_form {
+	width: auto;
+	height: auto;
+	text-align: left;
+	margin-top: 30px;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1, 
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 {
+	border: 0;
+	padding: 0;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 legend,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 legend {
+	display: none;
+}
+.webform-client-form {
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;	
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item {
+	float: left;
+	width: 188px;
+	height: auto;	
+	margin-right: 30px;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item input,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div#webform-component-contacts-fieldset-2--company-name input {
+	width: 188px;
+	height: 32px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item label,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item label {
+	margin-bottom: 8px;
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #000000;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item {
+	width: 626px;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div#webform-component-contacts-fieldset-2--title input {
+	width: 626px;
+	height: 32px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item textarea {
+	width: 626px;
+	height: 112px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+}
+.contact_us_body_form_group {
+	width: auto;
+	height: auto;
+}
+.contact_us_body_form_group_field {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 30px;
+}
+.contact_us_body_form_group_field_title {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+.contact_us_body_form_group_field_title span {
+	color: #999999;
+}
+.contact_us_body_form_group_field_box {
+	width: 188px;
+	height: 32px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.contact_us_body_form_group_field_box input {
+	width: 170px;
+	height: 26px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-left: 5px;
+	border: none;
+	background: none;
+}
+.contact_us_body_form_group_field_pusher {
+	width: 100%;
+	height: 20px;
+}
+.contact_us_body_form_group_field_wide {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 30px;
+}
+.contact_us_body_form_group_field_wide_title {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+.contact_us_body_form_group_field_wide_title span {
+	color: #999999;
+}
+.contact_us_body_form_group_field_wide_box {
+	width: 626px;
+	height: 32px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.contact_us_body_form_group_field_wide_box input {
+	width: 616px;
+	height: 26px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-left: 5px;
+	border: none;
+	background: none;
+}
+.contact_us_body_form_group_textarea_wide {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 30px;
+}
+.contact_us_body_form_group_textarea_wide_title {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+.contact_us_body_form_group_textarea_wide_title span {
+	color: #999999;
+}
+.contact_us_body_form_group_textarea_wide_box {
+	width: 626px;
+	height: 112px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.contact_us_body_form_group_textarea_wide_box textarea {
+	width: 610px;
+	height: 100px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	margin-left: 5px;
+	margin-top: 2px;
+	border: none;
+	background: none;
+}
+.contact_us_body_form_submit, .form-submit {
+	width: 123px;
+	height: 41px;
+	background-color: #4C8D97;
+	border:0;
+	border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+	-moz-box-shadow: 0 0 3px #999999;
+	-webkit-box-shadow: 0 0 3px #999999;
+	box-shadow: 0 0 3px #999999;
+	cursor: pointer;
+}
+.contact_us_body_form_submit:hover, .form-submit:hover {
+	background-color: #EF532C;
+}
+.contact_us_body_form_submit_text, .form-submit {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 16px;
+	color: #F7F7F7;
+	text-align: center;
+	padding: 10px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/*error_404*/
+.error_404 {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.error_404_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+	margin-bottom: 30px;
+}
+
+.error_404_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.error_404_body_text_1 {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 40px;
+	color: #C9C9C9;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+}
+.error_404_body_text_2 {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 185px;
+	color: #EF532C;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -40px;
+}
+.error_404_body_text_title {
+	width: auto;
+	height: auto;
+}
+.error_404_body_text_title_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+.error_404_body_text_additional {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+	margin-top: 10px;
+}
+.error_404_body_text_additional a {
+	color: #4B8D97;
+	text-decoration: none;
+}
+.error_404_body_text_additional a:hover {
+	color: #EF532C;
+	text-decoration: none;
+}
+.error_404_body_text_search {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.error_404_body_text_search_field {
+	position: relative;
+	width: 298px;
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #EF532C;
+	margin: 0 auto;
+	text-align: left;
+}
+.error_404_body_text_search_field input {
+	width: 252px;
+	height: 24px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	border: none;
+	background: none;
+}
+.error_404_body_text_search_field_icon {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 265px;
+	top: 0px;
+}
+.error_404_body_text_sitemap {
+	width: 156px;
+	height: 106px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.error_404_body_pusher {
+	width: 100%;
+	height: 100px;
 }
 
 
@@ -1145,7 +2669,95 @@ html, body {
 	top: 0px;
 }
 
+/*our_clients*/
+.our_clients {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
 
+.our_clients_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+}
+
+.our_clients_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.our_clients_body_title {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.our_clients_body_title_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+.our_clients_body_description {
+	width: auto;
+	height: auto;
+	margin-bottom: 40px;
+}
+.our_clients_body_description_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #404040;
+	margin-top: 30px;
+}
+
+.our_clients_body_clients {
+	width: auto;
+	height: auto;
+}
+.our_clients_body_clients_item {
+	float: left;
+	width: 120px;
+	height: auto;
+	margin-right: 25px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.our_clients_body_clients_item_logo {
+	width: 120px;
+	height: 59px;
+	border: 1px solid #EBEBEB;
+	text-align: center;
+}
+.our_clients_body_clients_item_logo img {
+	width: auto;
+	height: 59px;
+}
+.our_clients_body_clients_item_name, .our_clients_body_clients_item_name a {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404040 !important;
+	text-decoration: none;	
+	margin-top: 3px;
+}
+
+.our_clients_body_pusher {
+	width: 100%;
+	height: 0px;
+}
 
 
 /*services*/

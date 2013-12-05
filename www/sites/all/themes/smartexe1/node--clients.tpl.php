@@ -81,11 +81,7 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print render($title_prefix); ?>
-  <?php if (!$page): ?>
-    <h2<?php print $title_attributes; ?>>
-      <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
-    </h2>
-  <?php endif; ?>
+  <div class="home_title"><div class="home_title_text"><?php print $title; ?></div></div>
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>
@@ -98,8 +94,13 @@
   <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
       //print render($content);
-      print_r($field_description[0]['safe_value']);
+	  echo '<div class="our_clients_body_description">';
+      echo '<div class="our_clients_body_description_text">'.$field_description[0]['safe_value'].'</div>';
+	  echo '</div>';
+	  
 	  $num = count($field_client_logos);
+	  
+	  echo '<div class="our_clients_body_clients">';
 	  for($i=1;$i<=$num;$i++){
 		  $f = entity_load('field_collection_item', array($field_client_logos[$i-1]['value']));
 		  foreach($f as $field){
@@ -108,13 +109,16 @@
 				$target="_blank";
 			else 
 				$target = "";
-			echo "<div style='float:left;'>";
-			echo "<a href='".$field->field_link['und'][0]['value']."' target='".$target."'>";
-			echo "<img src='/sites/default/files/clients/".$field->field_client_logo['und'][0]['filename']."'><br>";
-			echo $field->field_client_name['und'][0]['value'];
-			echo "</a></div>";
+			echo '<div class="our_clients_body_clients_item">';
+			echo "<div class='our_clients_body_clients_item_logo'><a href='".$field->field_link['und'][0]['value']."' target='".$target."'>";
+			echo "<img src='/sites/default/files/clients/".$field->field_client_logo['und'][0]['filename']."'></a></div>";
+			echo "<div class='our_clients_body_clients_item_name'><a href='".$field->field_link['und'][0]['value']."' target='".$target."'>";
+			echo $field->field_client_name['und'][0]['value']."</a></div>";
+			echo "</div>";
 		  }
 	  }
+		echo '<div class="cleaner"></div>';
+        echo '</div>';
     ?>
   </div>
 

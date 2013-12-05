@@ -16,4 +16,18 @@ function smartexe_js_alter(&$javascript) {
 
 function smartexe1_preprocess_html(&$variables) {
     drupal_add_css('http://fonts.googleapis.com/css?family=Ubuntu:400,300,700', array('type' => 'external'));
+
+
+}
+
+function smartexe1_preprocess_page(&$vars) {
+  // If the theme includes a template file named 'node--TYPE.tpl.php', or a
+  // function named THEMENAME_node__TYPE(), it is used instead of the more
+  // generic node.tpl.php file. Note that '__' instead of '--' is used here.
+  // The theme system converts this to '--' when searching for a template that
+  // implements this hook.
+  if (isset ($vars['page'])) {
+	$vars['theme_hook_suggestions'][] = 'page__'.$vars['node']->type;
+  }
+
 }
