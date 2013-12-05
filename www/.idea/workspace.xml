@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.tpl.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="10" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-96.51613">
+            <state line="136" column="10" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-5.2357616">
               <folding />
             </state>
           </provider>
@@ -51,15 +51,6 @@
               <folding>
                 <marker date="1386240620000" expanded="false" signature="5050:5061" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2094" column="1" selection-start="37303" selection-end="37303" vertical-scroll-proportion="-43.770966">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -277,6 +268,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/themes/smartexe1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
@@ -462,22 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--about_us_team.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="9" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-10.0">
-          <folding>
-            <marker date="1386240620000" expanded="false" signature="5050:5061" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="10" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-96.51613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="64" selection-start="4333" selection-end="4355" vertical-scroll-proportion="-6.387097">
@@ -501,7 +481,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2094" column="1" selection-start="37303" selection-end="37303" vertical-scroll-proportion="-43.770966">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--about_us_team.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="9" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-10.0">
+          <folding>
+            <marker date="1386240620000" expanded="false" signature="5050:5061" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="10" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-5.2357616">
           <folding />
         </state>
       </provider>
