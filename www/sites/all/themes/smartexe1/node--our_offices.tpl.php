@@ -81,25 +81,155 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print render($title_prefix); ?>
-  <?php if (!$page): ?>
-    <h2<?php print $title_attributes; ?>>
-      <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
-    </h2>
-  <?php endif; ?>
+  <div class="home_title"><div class="home_title_text"><?php print $title; ?></div></div>
   <?php print render($title_suffix); ?>
+  
+  <div class="content clearfix"<?php print $content_attributes; ?>>
+	<div class="contact_us_body_contacts">
+    <?php
+      //print render($content);	  
+	  
+	  $locations = "";
+	  
+	  // Display Headquarters
+	  $num = count($field_headquarters);
+	  for($i=1;$i<=$num;$i++){
+		  $f = entity_load('field_collection_item', array($field_headquarters[$i-1]['value']));
+		  foreach($f as $field){
+			//print_r($field);
+			echo "<div class='contact_us_body_contacts_1'>";
+			echo "<div class='contact_us_body_contacts_1_type'>Headquarters</div>";
+			echo "<div class='contact_us_body_contacts_1_name'>".$field->field_headquarters_name['und'][0]['value']."</div>";
+			echo "<div class='contact_us_body_contacts_1_adress'>".$field->field_headquarters_location['und'][0]['value']."</div>";
+			echo "<div class='contact_us_body_contacts_1_other'>";
+			if($field->field_headquarters_phone['und'][0]['value'] != ""){
+				echo "Tel: ".$field->field_headquarters_phone['und'][0]['value']."";
+			}
+			if($field->field_headquarters_fax['und'][0]['value'] != ""){
+				echo "<br/>Fax: ".$field->field_headquarters_fax['und'][0]['value']."";
+			}
+			if($field->field_headquarters_email['und'][0]['value'] != ""){
+				echo "<br/>Email: <a href='mailto:".$field->field_headquarters_email['und'][0]['value']."'>".$field->field_headquarters_email['und'][0]['value']."</a>";
+			}
+			echo "</div>";
+			echo "</div>";
+			
+			$locations .= "'".$field->field_headquarters_location['und'][0]['value']."',";
+		  }
+	  }
+	  
+	  // Display Representatives
+	  ?>
+	  <div class="contact_us_body_contacts_2">
+		<div class="contact_us_body_contacts_2_type">
+			Representative
+		</div>
+	  <?php
+	  $num = count($field_representative);
+	  for($i=1;$i<=$num;$i++){
+		  $f = entity_load('field_collection_item', array($field_representative[$i-1]['value']));
+		  foreach($f as $field){
+			//print_r($field);
+			echo "";
+			echo "<div class='contact_us_body_contacts_2_name'>".$field->field_representative_name['und'][0]['value']."</div>";
+			echo "<div class='contact_us_body_contacts_2_adress'>".$field->field_representative_location['und'][0]['value']."<div>";
+			echo "<div class='contact_us_body_contacts_2_other'>";
+			if($field->field_representative_phone['und'][0]['value'] != ""){
+				echo "Tel: ".$field->field_representative_phone['und'][0]['value']."";
+			}
+			if($field->field_representative_fax['und'][0]['value'] != ""){
+				echo "<br/>Fax: ".$field->field_representative_fax['und'][0]['value']."";
+			}
+			if($field->field_representative_email['und'][0]['value'] != ""){
+				echo "<br/>Email: <a href='mailto:".$field->field_representative_email['und'][0]['value']."'>".$field->field_representative_email['und'][0]['value']."</a>";
+			}
+			echo "</div>";
+			
+			$locations .= "'".$field->field_representative_location['und'][0]['value']."',";
+		  }
+	  }
+	  ?>
+		</div>
+	  </div>
+		<div class="cleaner"></div>
+	  </div>
+	  
+	  <?php
+	  
+	  // Display Other Centers
+	  ?>
+	  <div class="contact_us_body_contacts_3">
+		<div class="contact_us_body_contacts_3_box">
+			<div class="contact_us_body_contacts_3_box_title">
+				Research and Development Centers:
+			</div>
+			<div class="contact_us_body_contacts_3_box_other">
+	  <?php 
+	  $num = count($field_other_centers);
+	  for($i=1;$i<=$num;$i++){
+		  $f = entity_load('field_collection_item', array($field_other_centers[$i-1]['value']));
+		  foreach($f as $field){
+			//print_r($field);
+			echo "• ";
+			echo "".$field->field_other_name['und'][0]['value'].", ";
+			echo "".$field->field_other_city['und'][0]['value'].", ";
+			echo "".$field->field_other_country['und'][0]['value']."";
+			echo "<br/>";
+		  }
+	  }
+    ?>
+		</div>
+		<div class="contact_us_body_contacts_3_box_pusher">
+		</div>
+	</div>
+	
+	<div class="cleaner"></div>
+	
+	</div>
+	
+  </div>
+
+</div>
+
+<div class="contact_us_body_contacts_3_box_pusher"></div>
+<div class="services_development_body_title">
+	<div class="services_development_body_title_text">
+		Contact us
+	</div>
+	<div class="cleaner">
+	</div>
+</div>
+
+<div class="contact_us_body_form">
+	<?php if (!function_exists('node_add')) {
+	  module_load_include('inc', 'node', 'node.pages');
+	}
+	//print_r($node->webform['nid']);
+	// get contact webform
+	$nid = $node->webform['nid'];
+	$node = node_load($nid);
+	$submission = (object) array();
+	$enabled = TRUE;
+	$preview = FALSE;
+	$contact_form = drupal_get_form('webform_client_form_23', $node, $submission, $enabled, $preview); 
+	print drupal_render($contact_form);
+	?>
+</div>
 
 <script type="text/javascript">
 function initialize() {
 	var mapOptions = {
 		center: new google.maps.LatLng(32.084502, 34.803314),
-		zoom: 16
+		zoom: 16,
+		zoomControl: true,
+	    scaleControl: true,
+	    scrollwheel: false,
+	    disableDoubleClickZoom: true
 	};
 	
 	var map = new google.maps.Map(document.getElementById("contact_us_map"), mapOptions);
 	
-	var map_address_array = new Array();
-	map_address_array.push("7, Aba Hillel Rd., 4th Floor Ramat Gan, Israel");
-	map_address_array.push("inSegment Inc. 313 Washington St., Suite 401 Newton, MA 02458, USA");
+	var map_address_array = new Array(<?=rtrim($locations,",")?>);
 	
 	var map_address_geocoder = new google.maps.Geocoder();
 	
@@ -118,12 +248,3 @@ function initialize() {
 }		
 	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-  
-  <div class="content clearfix"<?php print $content_attributes; ?>>
-    <?php
-      print render($content);
-	  //echo $node->body['und'][0]['value'];
-    ?>
-  </div>
-
-</div>

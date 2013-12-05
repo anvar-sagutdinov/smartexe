@@ -83,7 +83,12 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuNeB3BCYmu5Sb0g_jD3EefGS
 
 	<div class="content">
 		<div class="home">
-		<?php print render($page['content']); ?>
+		<?php if ($messages): ?>
+		<div id="messages"><div class="section clearfix">
+		  <?php print $messages."<br/>"; ?>
+		</div></div> <!-- /.section, /#messages -->
+		<?php endif; ?>
+		<?php print render($page['content']); ?>		
 		</div>
 	</div>
 	

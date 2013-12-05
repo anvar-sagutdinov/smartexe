@@ -2251,6 +2251,64 @@ html, body {
 	text-align: left;
 	margin-top: 30px;
 }
+.webform-client-form fieldset#webform-component-contacts-fieldset-1, 
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 {
+	border: 0;
+	padding: 0;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 legend,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 legend {
+	display: none;
+}
+.webform-client-form {
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;	
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item {
+	float: left;
+	width: 188px;
+	height: auto;	
+	margin-right: 30px;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item input,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div#webform-component-contacts-fieldset-2--company-name input {
+	width: 188px;
+	height: 32px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-1 div.form-item label,
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item label {
+	margin-bottom: 8px;
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #000000;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item {
+	width: 626px;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div#webform-component-contacts-fieldset-2--title input {
+	width: 626px;
+	height: 32px;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+}
+.webform-client-form fieldset#webform-component-contacts-fieldset-2 div.form-item textarea {
+	width: 626px;
+	height: 112px;
+	background-color: #FAFAFA;
+	border: 1px solid #E5E5E5;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000000;
+}
 .contact_us_body_form_group {
 	width: auto;
 	height: auto;
@@ -2365,10 +2423,11 @@ html, body {
 	border: none;
 	background: none;
 }
-.contact_us_body_form_submit {
+.contact_us_body_form_submit, .form-submit {
 	width: 123px;
 	height: 41px;
 	background-color: #4C8D97;
+	border:0;
 	border-radius: 2px 2px 2px 2px;
     -moz-border-radius: 2px 2px 2px 2px;
     -webkit-border-radius: 2px 2px 2px 2px;
@@ -2377,10 +2436,10 @@ html, body {
 	box-shadow: 0 0 3px #999999;
 	cursor: pointer;
 }
-.contact_us_body_form_submit:hover {
+.contact_us_body_form_submit:hover, .form-submit:hover {
 	background-color: #EF532C;
 }
-.contact_us_body_form_submit_text {
+.contact_us_body_form_submit_text, .form-submit {
 	width: auto;
 	height: auto;
 	font-family: 'Ubuntu', Arial;
@@ -2388,7 +2447,7 @@ html, body {
 	font-size: 16px;
 	color: #F7F7F7;
 	text-align: center;
-	padding-top: 8px;
+	padding: 10px 40px;
 }
 
 
@@ -2610,7 +2669,95 @@ html, body {
 	top: 0px;
 }
 
+/*our_clients*/
+.our_clients {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
 
+.our_clients_top_line {
+	width: 100%;
+	height: 3px;
+	background-color: #EF532C;
+}
+
+.our_clients_body {
+	width: 1170px;
+	height: auto;
+	margin: 0 auto;
+}
+.our_clients_body_title {
+	width: auto;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.our_clients_body_title_text {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 11px;
+	border-bottom: 2px solid #4C8D97;
+}
+.our_clients_body_description {
+	width: auto;
+	height: auto;
+	margin-bottom: 40px;
+}
+.our_clients_body_description_text {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #404040;
+	margin-top: 30px;
+}
+
+.our_clients_body_clients {
+	width: auto;
+	height: auto;
+}
+.our_clients_body_clients_item {
+	float: left;
+	width: 120px;
+	height: auto;
+	margin-right: 25px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.our_clients_body_clients_item_logo {
+	width: 120px;
+	height: 59px;
+	border: 1px solid #EBEBEB;
+	text-align: center;
+}
+.our_clients_body_clients_item_logo img {
+	width: auto;
+	height: 59px;
+}
+.our_clients_body_clients_item_name, .our_clients_body_clients_item_name a {
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404040 !important;
+	text-decoration: none;	
+	margin-top: 3px;
+}
+
+.our_clients_body_pusher {
+	width: 100%;
+	height: 0px;
+}
 
 
 
