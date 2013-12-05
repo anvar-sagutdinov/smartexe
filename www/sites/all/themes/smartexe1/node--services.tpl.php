@@ -98,19 +98,34 @@
   <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
       //print render($content);
-	  echo "<div style='height:300px;'>";
+	  echo "<div class='services_body_head_left_image'>";
 	  echo "<img src='/sites/default/files/".$node->field_services_featured_image['und'][0]['filename']."' style='float:left;padding-right:20px;'>";
+      echo "</div>";
+     echo "<div class='services_body_head_right'>
+            	<div class='services_body_head_right_title'>";
+    print $title;
+    echo "</div>";
+      echo "<div class='services_body_head_right_description'>";
       echo $node->body['und'][0]['safe_value'];
-	  echo "</div>";
+      echo "</div>";
+    echo "</div>";
+
 	  //print_r($content);
 	  $num = count($field_services);
 	  for($i=1;$i<=$num;$i++){
 		  $f = entity_load('field_collection_item', array($field_services[$i-1]['value']));
 		  foreach($f as $field){
 			//print_r($field);
-			echo "<div style='float:left;width:300px;padding-right:10px;'>";
+			echo "<div class='services_body_list_row_item_head_logo_image'>";
 			echo "<img src='/sites/default/files/".$field->field_service_icon['und'][0]['filename']."' align='absmiddle'>";
+            echo "</div>";
+
+             echo "<div class='services_body_list_row_item_head_title'>
+                        	<div class='services_body_list_row_item_head_title_text'>";
 			echo "<b>".$field->field_service_name['und'][0]['value']."</b><br>";
+              echo "</div>";
+              echo "</div>";
+
 			echo $field->field_service_description['und'][0]['value']."<br>";
 			echo "<a href='".$field->field_service_link['und'][0]['value']."'>Learn more >></a>";
 			echo "</div>";

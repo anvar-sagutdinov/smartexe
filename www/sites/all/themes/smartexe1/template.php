@@ -13,3 +13,7 @@ function smartexe_js_alter(&$javascript) {
     //Then we remove the Drupal core version
     unset($javascript['misc/jquery.js']);
 }
+
+function smartexe1_preprocess_html(&$variables) {
+    drupal_add_css('http://fonts.googleapis.com/css?family=Ubuntu:400,300,700', array('type' => 'external'));
+}
