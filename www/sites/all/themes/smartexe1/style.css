@@ -1120,7 +1120,7 @@ html, body {
 	font-size: 13px;
 	line-height: 22px;
 	color: #414141;
-	padding: 20px;
+	padding: 0px 20px;
 }
 
 .about_body_team_second_row {
@@ -1129,9 +1129,10 @@ html, body {
 	margin-top: 30px;
 }
 .about_body_team_second_row_space {
-	float: left;
+	float: none;
 	width: 8px;
 	height: 50px;
+	clear: both;
 }
 .about_body_team_second_row_left {
 	float: left;

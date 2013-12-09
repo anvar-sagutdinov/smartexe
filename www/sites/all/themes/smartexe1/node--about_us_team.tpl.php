@@ -101,11 +101,13 @@
 	  echo "<div class='home_title'><div class='home_title_text'>".$node->field_team_title['und'][0]['value']."</div></div>";
 	  echo '<div class="about_body_team_description">'.$node->field_team_introduction['und'][0]['value'].'</div>';
 	  $num = count($field_team_member); //print_r($field_team_member);
+	  $a = 0;
 	  for($i=1;$i<=$num;$i++){
 		  $f = entity_load('field_collection_item', array($field_team_member[$i-1]['value']));
 		  foreach($f as $field){
-			//print_r($field);
+			//print_r($field);			
 			if ($field->field_team_featured_description['und'][0]['value'] != ""){
+				if($a > 0) $a = $a - 1;
 				echo '<div class="about_body_team_main_row">';
 				echo '<div class="about_body_team_main_row_left">';
 				echo '<div class="about_body_team_main_row_left_box">';
@@ -118,15 +120,24 @@
 				echo '</div>';
 				echo '</div>';
 				echo '</div>';
+				echo '<div class="about_body_team_main_row_right">';
+				echo '<div class="about_body_team_main_row_right_box">';
+				echo '<div class="about_body_team_main_row_right_box_text">'.$field->field_team_featured_description['und'][0]['value'].'</div>';
+				echo '</div>';
+				echo '</div>';
 				echo '<div class="cleaner"></div>';
 				echo "</div>";/**/
 			} else {
-				echo "<div style='float:left;'>";
-				echo "<b>".$field->field_full_name['und'][0]['value']."</b><br>";
-				echo "<b>".$field->field_position['und'][0]['value']."</b><br>";
-				echo $field->field_team_description['und'][0]['value']."<br>";
+				if ($a % 2 != 0){
+					echo '<div class="about_body_team_second_row_space"></div>';
+				}				
+				echo '<div class="about_body_team_second_row_left">';
+				echo '<div class="about_body_team_second_row_left_name">'.$field->field_full_name['und'][0]['value']."</div>";
+				echo '<div class="about_body_team_second_row_left_position">'.$field->field_position['und'][0]['value']."</div>";
+				echo '<div class="about_body_team_second_row_left_description">'.$field->field_team_description['und'][0]['value']."</div>";
 				echo "</div>";
 			}
+			$a++;
 		  }
 	  }
 	  echo '</div>';
