@@ -12,16 +12,9 @@
   <?php endif; ?>
 
     <div class="testimonials">
-        <div class="testimonials_top_line">
-        </div>
+
         <div class="testimonials_body">
-            <div class="testimonials_body_title">
-                <div class="testimonials_body_title_text">
-                    Testimonials
-                </div>
-                <div class="cleaner">
-                </div>
-            </div>
+
 
             <div class="testimonials_body_reviews">
                 <?php $num = count($field_client_testimonials);
