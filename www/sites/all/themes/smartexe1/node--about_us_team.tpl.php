@@ -96,21 +96,40 @@
   <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
 	  //print_r($content);
-      echo $node->body['und'][0]['value'];
-	  echo "<h3>".$node->field_team_title['und'][0]['value']."</h3>";
-	  echo $node->field_team_introduction['und'][0]['value'];
+      echo '<div class="about_body_description_text">'.$node->body['und'][0]['value'].'</div>';
+	  echo '<div class="about_body_team">';
+	  echo "<div class='home_title'><div class='home_title_text'>".$node->field_team_title['und'][0]['value']."</div></div>";
+	  echo '<div class="about_body_team_description">'.$node->field_team_introduction['und'][0]['value'].'</div>';
 	  $num = count($field_team_member); //print_r($field_team_member);
 	  for($i=1;$i<=$num;$i++){
 		  $f = entity_load('field_collection_item', array($field_team_member[$i-1]['value']));
 		  foreach($f as $field){
 			//print_r($field);
-			echo "<div style='float:left;'>";
-			echo "<b>".$field->field_full_name['und'][0]['value']."</b><br>";
-			echo "<b>".$field->field_position['und'][0]['value']."</b><br>";
-			echo $field->field_team_description['und'][0]['value']."<br>";
-			echo "</div>";/**/
+			if ($field->field_team_featured_description['und'][0]['value'] != ""){
+				echo '<div class="about_body_team_main_row">';
+				echo '<div class="about_body_team_main_row_left">';
+				echo '<div class="about_body_team_main_row_left_box">';
+				echo '<div class="about_body_team_main_row_left_box_head">';
+				echo '<div class="about_body_team_main_row_left_box_head_name">'.$field->field_full_name['und'][0]['value']."</div>";
+				echo '<div class="about_body_team_main_row_left_box_head_position">'.$field->field_position['und'][0]['value']."</div>";
+				echo '</div>';
+				echo '<div class="about_body_team_main_row_left_box_description">';
+				echo '<div class="about_body_team_main_row_left_box_description_text">'.$field->field_team_description['und'][0]['value']."</div>";				
+				echo '</div>';
+				echo '</div>';
+				echo '</div>';
+				echo '<div class="cleaner"></div>';
+				echo "</div>";/**/
+			} else {
+				echo "<div style='float:left;'>";
+				echo "<b>".$field->field_full_name['und'][0]['value']."</b><br>";
+				echo "<b>".$field->field_position['und'][0]['value']."</b><br>";
+				echo $field->field_team_description['und'][0]['value']."<br>";
+				echo "</div>";
+			}
 		  }
 	  }
+	  echo '</div>';
     ?>
   </div>
 
