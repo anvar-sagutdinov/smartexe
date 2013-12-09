@@ -72,8 +72,11 @@
     </div>
 </div>
 
-<?php if($is_front) { ?>
-<!--face-->
+<?php if($is_front) { 
+
+print render($page['slider']); ?>
+
+<!--face
 <div class="face">
     <div class="face_line">
     </div>
@@ -138,7 +141,7 @@
     </div>
     <div class="face_line">
     </div>
-</div>
+</div> -->
 <?php } else { ?>
 
 <div class="our_clients_top_line"></div>
@@ -155,6 +158,15 @@
 
 <div class="content">
     <div class="home">
+		<?php print render($title_prefix); ?>
+		<div class="home_title"><div class="home_title_text"><?php print $title; ?></div></div>
+		<?php print render($title_suffix); ?>
+		
+		<?php if ($messages): ?>
+		<div id="messages"><div class="section clearfix">
+		  <?php print $messages."<br/>"; ?>
+		</div></div> <!-- /.section, /#messages -->
+		<?php endif; ?>
         <?php print render($page['content']); ?>
     </div>
 </div>

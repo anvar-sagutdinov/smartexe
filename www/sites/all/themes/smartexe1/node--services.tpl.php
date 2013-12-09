@@ -1,6 +1,5 @@
+<?php //print_r($content); ?>
 <div class="services">
-    <div class="services_top_line">
-    </div>
     <div class="services_body">
         <div class="services_body_head">
             <div class="services_body_head_left">
@@ -10,7 +9,9 @@
             </div>
             <div class="services_body_head_right">
                 <div class="services_body_head_right_title">
-                    <?php print $title; ?>
+					<?php print render($title_prefix); ?>
+                    <?php print $content->title; ?>
+					<?php print render($title_suffix); ?>
                 </div>
                 <div class="services_body_head_right_description">
                     <?php   echo $node->body['und'][0]['safe_value'];?>

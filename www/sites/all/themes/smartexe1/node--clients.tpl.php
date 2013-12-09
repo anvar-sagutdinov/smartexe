@@ -81,7 +81,9 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print render($title_prefix); ?>
+  <?php if (!$page): ?>
   <div class="home_title"><div class="home_title_text"><?php print $title; ?></div></div>
+  <?php endif; ?>
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>

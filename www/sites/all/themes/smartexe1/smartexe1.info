@@ -6,6 +6,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = style.css
 regions[content] = Content
+regions[slider] = Slider
 regions[footer] = Footer
 regions[header] = Header
 
