@@ -2841,7 +2841,98 @@ html, body {
 
 
 
+/*testimonials*/
+.testimonials {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
 
+.testimonials_top_line {
+    width: 100%;
+    height: 3px;
+    background-color: #EF532C;
+}
+
+.testimonials_body {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.testimonials_body_title {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testimonials_body_title_text {
+    float: left;
+    width: auto;
+    height: auto;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #4C8D97;
+}
+
+.testimonials_body_reviews {
+    width: auto;
+    height: auto;
+}
+
+.testimonials_body_reviews_item {
+    float: left;
+    width: 340px;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.testimonials_body_reviews_item_head {
+    width: auto;
+    height: auto;
+}
+.testimonials_body_reviews_item_head_logo {
+    float: left;
+    width: 170px;
+    height: 86px;
+    border: 1px solid #EBEBEB;
+    text-align: center;
+}
+.testimonials_body_reviews_item_head_logo img {
+    width: auto;
+    height: 86px;
+}
+.testimonials_body_reviews_item_head_name {
+    float: left;
+    width: auto;
+    height: auto;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    font-size: 17px;
+    color: #EF532C;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.testimonials_body_reviews_item_description {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+.testimonials_body_reviews_item_description_text {
+    width: auto;
+    height: auto;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #404040;
+}
+.testimonials_body_reviews_item_description_text span {
+    color: #EF532C;
+}
 
 
 

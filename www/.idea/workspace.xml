@@ -11,6 +11,7 @@
     <file path="/services.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386245063328" ignored="false" />
     <file path="/footer.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564019886" ignored="false" />
     <file path="/style.css" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564246842" ignored="false" />
+    <file path="/node--testimonials.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386585644581" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="node--services.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="-0.7096774">
+            <state line="30" column="39" selection-start="1081" selection-end="1315" vertical-scroll-proportion="-9.935484">
               <folding />
             </state>
           </provider>
@@ -48,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.tpl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="22" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.30976865">
+            <state line="95" column="18" selection-start="4256" selection-end="4256" vertical-scroll-proportion="-5.935484">
               <folding>
                 <marker date="1386564297000" expanded="true" signature="583:618" placeholder="..." />
                 <marker date="1386564297000" expanded="true" signature="3534:4045" placeholder="..." />
@@ -66,10 +67,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="node--testimonials.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="10" selection-start="2586" selection-end="2586" vertical-scroll-proportion="-19.838709">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="720" column="1" selection-start="11410" selection-end="11410" vertical-scroll-proportion="-28.923077">
+            <state line="2909" column="16" selection-start="52655" selection-end="52655" vertical-scroll-proportion="0.25376883">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2614" column="1" selection-start="44941" selection-end="46581" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testimonials.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/testimonials.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="6" selection-start="0" selection-end="1858" vertical-scroll-proportion="-20.838709">
               <folding />
             </state>
           </provider>
@@ -97,8 +125,9 @@
         <option value="$USER_HOME$/Downloads/services.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/style.css" />
       </list>
     </option>
   </component>
@@ -370,16 +399,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/services_development.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="360" selection-end="360" vertical-scroll-proportion="0.33933163" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/services_project_management.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="20" selection-start="5163" selection-end="5163" vertical-scroll-proportion="0.038560413" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--about_us_team.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="9" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.39190897" />
@@ -400,11 +419,6 @@
         <state line="102" column="12" selection-start="4868" selection-end="4868" vertical-scroll-proportion="0.19342604" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="41" selection-start="4290" selection-end="4290" vertical-scroll-proportion="0.22250316" />
@@ -415,21 +429,9 @@
         <state line="31" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.8621997" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/nod2e--services.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="27" selection-start="4912" selection-end="4933" vertical-scroll-proportion="0.3881163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="-0.7096774">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--our_offices.tpl.php">
@@ -446,16 +448,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="720" column="1" selection-start="11410" selection-end="11410" vertical-scroll-proportion="-28.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="22" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.30976865">
+        <state line="95" column="18" selection-start="4256" selection-end="4256" vertical-scroll-proportion="-5.935484">
           <folding>
             <marker date="1386564297000" expanded="true" signature="583:618" placeholder="..." />
             <marker date="1386564297000" expanded="true" signature="3534:4045" placeholder="..." />
@@ -466,6 +461,41 @@
             <marker date="1386564297000" expanded="true" signature="4733:4880" placeholder="..." />
             <marker date="1386564297000" expanded="true" signature="4796:4880" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="39" selection-start="1081" selection-end="1315" vertical-scroll-proportion="-9.935484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="6" selection-start="0" selection-end="1858" vertical-scroll-proportion="-20.838709">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="10" selection-start="2586" selection-end="2586" vertical-scroll-proportion="-19.838709">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2614" column="1" selection-start="44941" selection-end="46581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2909" column="16" selection-start="52655" selection-end="52655" vertical-scroll-proportion="0.25376883">
+          <folding />
         </state>
       </provider>
     </entry>
