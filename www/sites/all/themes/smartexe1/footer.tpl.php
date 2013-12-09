@@ -17,7 +17,7 @@
 
                        <div class="footer_top_body_left_content_item">
                            <?php
-                            $block = module_invoke('menu', 'block_view', 'menu-services');
+                            $block = module_invoke('menu', 'block_view', 'menu-services-1');
                             print render($block['content']);
                            ?>
                            </div>
@@ -44,7 +44,7 @@
                     <div class="footer_top_body_middle_content_1">
                         <div class="footer_top_body_middle_content_item">
                             <?php
-                            $block = module_invoke('menu', 'block_view', 'menu-expertise-1');
+                            $block = module_invoke('menu', 'block_view', 'menu-expertise-4');
                             print render($block['content']);
                             ?>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="footer_top_body_middle_content_4">
                         <div class="footer_top_body_middle_content_item">
                             <?php
-                            $block = module_invoke('menu', 'block_view', 'menu-expertise-4');
+                            $block = module_invoke('menu', 'block_view', 'menu-e');
                             print render($block['content']);
                             ?>
                         </div>
@@ -86,7 +86,9 @@
                 </div>
                 <div class="footer_top_body_right_content">
                     <div class="footer_top_body_right_content_item">
-                        Sitemap <?php print '<img src="'.base_path() . path_to_theme() .'/images/footer/sitemap_normal.png" />';  ?>
+                        <?php
+                        $block = module_invoke('menu', 'block_view', 'menu-sitemap');
+                        echo render($block['content']).'<img src="'.base_path() . path_to_theme() .'/images/footer/sitemap_normal.png" />';  ?>
                     </div>
                 </div>
             </div>
@@ -105,7 +107,7 @@
             </div>
             <div class="footer_bottom_body_right">
                 <div class="footer_bottom_body_right_created">
-                    <a href=""><?php print '<img src="'.base_path() . path_to_theme() .'/images/footer/insegment_logo_normal.png" /></a>';  ?>
+                    <a target="_blank" href="http://www.insegment.com"><?php print '<img src="'.base_path() . path_to_theme() .'/images/footer/insegment_logo_normal.png" /></a>';  ?>
                 </div>
             </div>
             <div class="cleaner">

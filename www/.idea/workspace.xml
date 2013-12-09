@@ -9,8 +9,8 @@
     <file path="/template.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386158166442" ignored="false" />
     <file path="/node--services.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386246210186" ignored="false" />
     <file path="/services.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386245063328" ignored="false" />
-    <file path="/footer.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386328623427" ignored="false" />
-    <file path="/style.css" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386330043653" ignored="false" />
+    <file path="/footer.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564019886" ignored="false" />
+    <file path="/style.css" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564246842" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="node--services.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="0.0">
+            <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="-0.7096774">
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="0.0">
+            <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="-0.7096774">
               <folding />
             </state>
           </provider>
@@ -51,16 +51,16 @@
       <file leaf-file-name="footer.tpl.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="103" selection-start="4502" selection-end="4502" vertical-scroll-proportion="0.9443742">
+            <state line="92" column="22" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.30976865">
               <folding>
-                <marker date="1386330392000" expanded="true" signature="583:618" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="3542:3926" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="3812:3926" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="3881:3926" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="4242:4721" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="4283:4721" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="4614:4721" placeholder="..." />
-                <marker date="1386330392000" expanded="true" signature="4677:4721" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="583:618" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="3534:4045" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="3804:4045" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="3873:4045" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="4361:4880" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="4402:4880" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="4733:4880" placeholder="..." />
+                <marker date="1386564297000" expanded="true" signature="4796:4880" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -69,16 +69,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="543" column="36" selection-start="8420" selection-end="8420" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node--our_offices.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--our_offices.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="720" column="1" selection-start="11410" selection-end="11410" vertical-scroll-proportion="-28.923077">
               <folding />
             </state>
           </provider>
@@ -303,7 +294,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277481" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20704375" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -414,13 +405,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--our_offices.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="41" selection-start="4290" selection-end="4290" vertical-scroll-proportion="0.22250316" />
@@ -441,39 +425,46 @@
         <state line="101" column="27" selection-start="4912" selection-end="4933" vertical-scroll-proportion="0.3881163" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="0.0">
+        <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="-0.7096774">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--services.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--our_offices.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="1026" selection-end="1237" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="-0.7096774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="543" column="36" selection-start="8420" selection-end="8420" vertical-scroll-proportion="0.0">
+        <state line="720" column="1" selection-start="11410" selection-end="11410" vertical-scroll-proportion="-28.923077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="103" selection-start="4502" selection-end="4502" vertical-scroll-proportion="0.9443742">
+        <state line="92" column="22" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.30976865">
           <folding>
-            <marker date="1386330392000" expanded="true" signature="583:618" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="3542:3926" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="3812:3926" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="3881:3926" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="4242:4721" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="4283:4721" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="4614:4721" placeholder="..." />
-            <marker date="1386330392000" expanded="true" signature="4677:4721" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="583:618" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="3534:4045" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="3804:4045" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="3873:4045" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="4361:4880" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="4402:4880" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="4733:4880" placeholder="..." />
+            <marker date="1386564297000" expanded="true" signature="4796:4880" placeholder="..." />
           </folding>
         </state>
       </provider>
