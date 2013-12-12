@@ -15,7 +15,6 @@
 
         <div class="testimonials_body">
 
-
             <div class="testimonials_body_reviews">
                 <?php $num = count($field_client_testimonials);
                 for($i=1;$i<=$num;$i++){

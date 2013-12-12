@@ -11,7 +11,9 @@
     <file path="/services.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386245063328" ignored="false" />
     <file path="/footer.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564019886" ignored="false" />
     <file path="/style.css" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386564246842" ignored="false" />
-    <file path="/node--testimonials.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386585644581" ignored="false" />
+    <file path="/node--testimonials.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386657223395" ignored="false" />
+    <file path="/error_404.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386657314511" ignored="false" />
+    <file path="/node--sitemap.tpl.php" changelist="82242d4a-2831-4dd6-9a4b-45693f3453b1" time="1386849014801" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="-7.096774">
+            <state line="70" column="14" selection-start="2976" selection-end="2976" vertical-scroll-proportion="-3.548387">
               <folding />
             </state>
           </provider>
@@ -67,28 +69,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--testimonials.tpl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="node--testimonials.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.38938054">
+            <state line="25" column="159" selection-start="1214" selection-end="1215" vertical-scroll-proportion="-3.548387">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/style.css">
+      <file leaf-file-name="node--sitemap.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--sitemap.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2909" column="16" selection-start="52672" selection-end="52672" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2614" column="1" selection-start="44941" selection-end="46581" vertical-scroll-proportion="0.0">
+            <state line="5" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.13906448">
               <folding />
             </state>
           </provider>
@@ -113,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/smartexe/js/scripts.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/smartexe/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/smartexe.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/smartexe1.info" />
@@ -127,7 +118,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/node--404.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php" />
+        <option value="$USER_HOME$/Downloads/error_404.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/smartexe1/node--sitemap.tpl.php" />
       </list>
     </option>
   </component>
@@ -261,6 +255,28 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -276,6 +292,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/modules" />
       <recent name="$PROJECT_DIR$/sites/all/themes/smartexe1" />
     </key>
   </component>
@@ -323,7 +340,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20917822" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20384204" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -399,23 +416,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/testimonials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="0" selection-end="1858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--about_us_team.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="9" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.39190897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page--our_offices.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.1731987" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="64" selection-start="4333" selection-end="4355" vertical-scroll-proportion="0.25031605" />
@@ -438,9 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--our_offices.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/footer.tpl.php">
@@ -466,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/testimonials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="0" selection-end="1858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2614" column="1" selection-start="44941" selection-end="46581" vertical-scroll-proportion="0.0">
@@ -489,21 +480,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="41" selection-start="4304" selection-end="4304" vertical-scroll-proportion="0.22250316">
+        <state line="84" column="41" selection-start="4304" selection-end="4304" vertical-scroll-proportion="0.22250316" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/error_404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="18" selection-start="941" selection-end="941" vertical-scroll-proportion="0.70543617" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="6" selection-start="0" selection-end="1858" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/om_maximenu/om_maximenu.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="2" selection-start="5976" selection-end="5976" vertical-scroll-proportion="4.477876">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="55" selection-start="2850" selection-end="2889" vertical-scroll-proportion="-7.096774">
+        <state line="70" column="14" selection-start="2976" selection-end="2976" vertical-scroll-proportion="-3.548387">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--testimonials.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.38938054">
+        <state line="25" column="159" selection-start="1214" selection-end="1215" vertical-scroll-proportion="-3.548387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/smartexe1/node--sitemap.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.13906448">
           <folding />
         </state>
       </provider>
